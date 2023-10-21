@@ -134,3 +134,24 @@ form {
 .submit-btn:hover {
     background-color: purple;
 }
+
+/* footer css */
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    padding: 0;
+    background-color:#1f1f1f;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.social-icons a {
+    margin: 10px;
+    color: wheat;
+}
